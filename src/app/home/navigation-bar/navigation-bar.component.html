@@ -1,0 +1,19 @@
+<mat-sidenav-container>
+  <mat-sidenav
+    #sidenav mode="side"
+    fixedInViewport
+    [opened]="true"
+    [disableClose]="true"
+    class="Green2ColorTheme"
+  >
+    <mat-toolbar class="Green1ColorTheme">Menu</mat-toolbar>
+    <mat-nav-list>
+      <app-menu-navigation-tree></app-menu-navigation-tree>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="Pink2ColorTheme">
+    <mat-toolbar  class="matToolbar Green1ColorTheme" > Stock Management Tool</mat-toolbar>
+    <router-outlet ></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

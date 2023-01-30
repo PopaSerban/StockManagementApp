@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.Green1ColorTheme{
+    background-color: #61C0BF;
+}
+.Green2ColorTheme{
+    background-color: #BBDED6;
+}
+.Pink1ColorTheme{
+    background-color: #FFB6B9;
+}
+.Pink2ColorTheme{
+    background-color: #FAE3D9 ;
+}
+.ButtonTemplate{
+    border-radius: 0.75rem;
+    padding-top: 3px;
+}

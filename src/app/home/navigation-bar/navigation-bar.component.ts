@@ -15,4 +15,7 @@ export class NavigationBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  RedirectToRepository(){
+    window.location.href="https://github.com/PopaSerban/StockManagementApp";
+  }
 }

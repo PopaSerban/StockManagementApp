@@ -92,7 +92,8 @@ import { MatTreeModule }from '@angular/material/tree';
         MatTooltipModule,
         MatTableModule,
         MatPaginatorModule,
-        MatTreeModule
+        MatTreeModule,
+        MatButtonToggleModule
     ],
     providers: [
         MatDatepickerModule,

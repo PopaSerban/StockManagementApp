@@ -9,10 +9,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.component';
 import { AngularMaterialModule } from './material.module';
 import { MenuNavigationTreeComponent } from './home/menu-navigation-tree/menu-navigation-tree.component';
+import { BaseSectionComponent } from './home/base-section/base-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    BaseSectionComponent,
     NavigationBarComponent,
     MenuNavigationTreeComponent
   ],

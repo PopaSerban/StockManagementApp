@@ -1,4 +1,4 @@
-<mat-sidenav-container>
+<mat-sidenav-container class="Pink2ColorTheme">
   <mat-sidenav
     #sidenav mode="side"
     fixedInViewport
@@ -13,7 +13,14 @@
   </mat-sidenav>
 
   <mat-sidenav-content class="Pink2ColorTheme">
-    <mat-toolbar  class="matToolbar Green1ColorTheme" > Stock Management Tool</mat-toolbar>
-    <router-outlet ></router-outlet>
+    <mat-toolbar  class="matToolbar Green1ColorTheme" > 
+      <span>Stock Management Tool</span>
+      <span class="spacer"></span>
+      <button mat-icon-button class="icon right-button" aria-label=" icon-button with share icon" (click)="RedirectToRepository()">
+        <img src="../../assets/images/github-mark.svg" alt="GitHub">
+      </button>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

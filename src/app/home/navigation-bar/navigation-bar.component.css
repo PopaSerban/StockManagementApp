@@ -7,6 +7,15 @@ button img {
     height: 100%;
     }
     
-mat-toolbar{
- padding-left: 3%;
+
+.matToolbar{
+    position: fixed;
+
+    top: 0;
+    z-index: 1;
+
+}
+.mat-sidenav-content{
+    padding-left: 0px;
+    padding-top: 64px;
 }

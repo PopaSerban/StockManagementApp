@@ -1,0 +1,21 @@
+<mat-grid-list cols="6" rowHeight="2:1">
+  <mat-grid-tile colspan="2">
+    <app-dashboard-small-card [title]="'Products No.'" [value]="'200'"></app-dashboard-small-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2">
+    <app-dashboard-small-card [title]="'Total Inventory'" [value]="'123204'"></app-dashboard-small-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2">
+    <app-dashboard-small-card [title]="'Total Storage Cost'" [value]="'63550$'"></app-dashboard-small-card
+  ></mat-grid-tile>
+  <mat-grid-tile colspan="4" rowspan="4">
+    <app-dashboard-statistics></app-dashboard-statistics>
+  </mat-grid-tile>
+
+  <mat-grid-tile colspan="2" rowspan="7">
+      <app-dashboard-data-filter-card [productTypes]="productTypes" [inventoryCosts]="inventoryCosts"></app-dashboard-data-filter-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="4" rowspan="3">
+      <app-dashboard-low-inventory-card></app-dashboard-low-inventory-card>
+  </mat-grid-tile>
+</mat-grid-list>

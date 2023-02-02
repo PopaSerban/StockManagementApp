@@ -12,15 +12,14 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <mat-sidenav-content class="Pink2ColorTheme">
-    <mat-toolbar  class="matToolbar Green1ColorTheme" > 
+  <mat-sidenav-content class="Pink2ColorTheme" >
+    <mat-toolbar  class="matToolbar Green1ColorTheme " > 
       <span>Stock Management Tool</span>
       <span class="spacer"></span>
       <button mat-icon-button class="icon right-button" aria-label=" icon-button with share icon" (click)="RedirectToRepository()">
         <img src="../../assets/images/github-mark.svg" alt="GitHub">
       </button>
     </mat-toolbar>
-
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

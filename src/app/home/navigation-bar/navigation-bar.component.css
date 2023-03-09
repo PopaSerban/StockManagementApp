@@ -10,7 +10,8 @@ button img {
 
 .matToolbar{
     position: fixed;
-
+    left: 200 !important;
+    padding-right: 250px;
     top: 0;
     z-index: 1;
 

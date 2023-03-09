@@ -11,6 +11,7 @@ import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.com
 import { AngularMaterialModule } from './material.module';
 import { MenuNavigationTreeComponent } from './home/menu-navigation-tree/menu-navigation-tree.component';
 import { BaseSectionComponent } from './home/base-section/base-section.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,10 +24,11 @@ import { BaseSectionComponent } from './home/base-section/base-section.component
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
     AngularMaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
